@@ -24,3 +24,6 @@
     margin-top: 20px; /* Espaçamento entre a divisão e os cards */
   }
   
+  .text-center {
+    text-align: center !important;
+}
