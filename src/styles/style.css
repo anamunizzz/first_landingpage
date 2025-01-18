@@ -1,5 +1,26 @@
-.divider-line {
-    height: 3px;
-
-}
-
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0; /* Espaçamento superior e inferior */
+  }
+  
+  .divider-line {
+    height: 2px;
+    background-color: #17a2b8; /* Ajuste a cor conforme necessário */
+    margin: 0 10px; /* Espaçamento entre a linha e a estrela */
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adicione um sombreamento suave */
+    transition: transform 0.2s; /* Animação ao passar o mouse */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+  }
+  
+  .container.text-center {
+    margin-top: 20px; /* Espaçamento entre a divisão e os cards */
+  }
+  
