@@ -27,3 +27,8 @@
   .text-center {
     text-align: center !important;
 }
+
+.about-section {
+  background-color: #8dbbec; /* Azul Bootstrap */
+  color: rgb(0, 0, 0); /* Deixa o texto branco para contraste */
+}
